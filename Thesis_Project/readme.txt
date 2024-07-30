@@ -44,7 +44,7 @@ Hyperparameters within mine.py:
     Changes made to mine.py:
     # changed tf.random_shuffle to tf.random.shuffle in the shuffle() function, as the prior is a deprecated version
     # We changed the model architecture to be in line with the MNIST experiment model described by Belghazi et al. ([2], Table 15)
-    # Changed the first and second hidden layer size to have 512 neurons wit ELU activations each
+    # Changed the first and second hidden layer size to have 512 neurons with ELU activations each
     # Added GaussianNoise(stddev=0.3) after the input layer and GaussianNoise(stddev=0.5) after each hidden layer as described by the team
     # GaussianNoise adds noise to the previous layers outputs, it's a form of data augmentation
     # output layer remains a single neuron with ELU activation
